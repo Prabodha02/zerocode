@@ -4,6 +4,7 @@ public class AccountDepositRequest {
 
     private Long accountNumber;
     private Double balance;
+    private String name;
 
     public void setAccountNumber(Long accountNumber) {
         this.accountNumber = accountNumber;
